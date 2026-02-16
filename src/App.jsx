@@ -13,11 +13,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           {/* redirect root to auth */}
-          <Route path="/" element={<AuthLayout to="/auth" replace />} />
-
+          <Route path="/" element={<AuthLayout />} />
+          {/* <Route path="/auth" element={<AuthLayout/>}></Route> */}
           <Route path="/" element={<RootLayout />}>
-
-            <Route path="/" element={<Home />}></Route>
+            <Route path="/home" element={<Home />}></Route>
             <Route path="/class" element={<Class />}></Route>
             <Route path="/lesson" element={<Lesson />}></Route>
             <Route path="/about" element={<About />}></Route>

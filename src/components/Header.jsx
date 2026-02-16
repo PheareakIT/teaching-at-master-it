@@ -11,7 +11,7 @@ function Header() {
                 </div>
             </div>
             <div className="bg-pink-500 flex gap-5">
-                <Link to="/">Home</Link>
+                <Link to="/home">Home</Link>
                 <Link to="/class">Class</Link>
                 <Link to="/lesson">Lesson</Link>
                 <Link to="/about">About</Link>

@@ -4,11 +4,11 @@ import Header from '../components/Header'
 
 function RootLayout() {
   return (
-    <div>
+    <>
         <Header/>
 
         <Outlet/>
-    </div>
+    </>
   )
 }
 

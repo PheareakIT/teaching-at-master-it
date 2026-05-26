@@ -11,7 +11,7 @@ function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <span className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">
-              SeschbongIT
+              SesChbongIT
             </span>
           </div>
           <div className="flex items-center space-x-6 text-sm font-medium text-slate-400">
